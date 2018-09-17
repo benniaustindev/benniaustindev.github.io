@@ -4452,6 +4452,11 @@ footer a i {
   width: 1.5rem;
   tex-align: center;
 }
+@media screen and (max-width: 650px) {
+  footer {
+    padding: 3rem 1rem 6rem;
+  }
+}
 * {
   box-sizing: border-box;
 }
