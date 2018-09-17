@@ -7,9 +7,12 @@
     height:100%;
     font-size:2em;
   }
-  100% {
+  99.9% {
     font-size:1em;
     height:9em;
+  }
+  100% {
+    position:absolute;
   }
 }
 @keyframes header-text {
@@ -48,13 +51,16 @@
   }
 }
 
-
+header.adjusted {
+  transition:top (@introAnimationSpeed / 2);
+  transition-delay:(@introAnimationSpeed / 3);
+}
 header {
   display:flex;
   justify-content:center;
   font-size:1em;
   margin:2rem;
-  position:Absolute;
+  position:absolute;
   top:0;
   left:0;
   right:0;
@@ -111,7 +117,7 @@ header {
     margin-top:12rem;
   }
   &~*{
-    animation:fadeIn (@introAnimationSpeed) 1;
+    animation:fadeIn (@introAnimationSpeed * .66) 1;
   }
 }
 
