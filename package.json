@@ -1,0 +1,33 @@
+{
+  "name": "benniaustindev",
+  "version": "1.0.0",
+  "description": "## Objective",
+  "main": "index.js",
+  "scripts": {
+    "generateReadme": "node scripts/generateReadme.js",
+    "generateHTML": "node scripts/generateHTML.js",
+    "generateCSS": "lessc less/styles.less  styles.css",
+    "generate": "yarn generateCSS && yarn generateHTML && yarn generateHTML"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benniaustindev/benniaustindev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benniaustindev/benniaustindev/issues"
+  },
+  "homepage": "https://github.com/benniaustindev/benniaustindev#readme",
+  "dependencies": {
+    "handlebars": "^4.4.5",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}

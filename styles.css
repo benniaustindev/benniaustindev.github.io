@@ -3932,7 +3932,10 @@ table {
   vertical-align: middle;
   margin-right: 0.5rem;
 }
-.icon.trilogy {
+.icon.secretLab {
+  background-image: url('img/secretLab.png');
+}
+.icon.trilogyEducationUmnBootcamp {
   background-image: url('img/trilogy.png');
 }
 .icon.thomsonReuters {
@@ -4118,7 +4121,7 @@ header ~ * {
   0% {
     transform: translateY(100%);
   }
-  80% {
+  50% {
     transform: translateY(100%);
   }
   100% {
@@ -4132,11 +4135,11 @@ nav {
 }
 nav a {
   padding: 0.75rem 1rem;
-  border-radius: 0.25rem;
+  border-radius: 2px;
   text-decoration: none;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 1rem 0 rgba(0, 0, 0, 0.25);
-  background: #ddd;
-  color: #000;
+  background: #333;
+  color: #fff;
+  box-shadow: 0 0 3em -1em #000000;
   margin: 0 1rem;
   animation: showButtons 3s 1;
 }
@@ -4164,7 +4167,8 @@ nav a i {
     right: 0;
     z-index: 5;
     padding: 0;
-    background: #eee;
+    box-shadow: 0 0 3em -1em #000000;
+    background: #333;
     animation: showNav 3s 1;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 1rem 0 rgba(0, 0, 0, 0.25);
   }
@@ -4302,7 +4306,7 @@ section#technologies button i {
   line-height: 3rem;
   font-size: 2rem;
   background: #333;
-  color: #bbb;
+  color: #33adff;
   border-radius: 50%;
   margin: 1rem;
   position: relative;
@@ -4311,6 +4315,7 @@ section#technologies button i {
 }
 section#technologies button:not(.active):hover i {
   background: #09f;
+  color: #333;
   box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.75), 0 0 0 1px rgba(0, 0, 0, 0.5);
 }
 section#technologies button:not(.active):hover em {
@@ -4319,6 +4324,7 @@ section#technologies button:not(.active):hover em {
 }
 section#technologies button.active i {
   background: #09f;
+  color: #333;
 }
 section#technologies button em {
   position: relative;
