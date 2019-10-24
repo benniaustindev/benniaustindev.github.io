@@ -4102,6 +4102,9 @@ header ~ * {
   header {
     font-size: 0.9em;
   }
+  header hgroup h2 {
+    white-space: normal;
+  }
 }
 @keyframes showButtons {
   0% {
