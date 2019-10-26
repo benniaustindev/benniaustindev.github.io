@@ -6,9 +6,9 @@
   "scripts": {
     "generateReadme": "node scripts/generateReadme.js",
     "generateHTML": "node scripts/generateHTML.js",
+    "generateDoc": "node scripts/generateDoc.js",
     "generateCSS": "lessc less/styles.less  styles.css",
-    "generate": "yarn generateCSS && yarn generateHTML && yarn generateHTML"
-
+    "build": "yarn generateCSS && yarn generateHTML && yarn generateDoc"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,11 @@
   },
   "homepage": "https://github.com/benniaustindev/benniaustindev#readme",
   "dependencies": {
+    "docx": "^5.0.0-rc7",
     "handlebars": "^4.4.5",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "officegen": "^0.6.3"
   },
   "devDependencies": {
     "eslint": "^6.5.1",

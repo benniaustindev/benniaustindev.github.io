@@ -21,7 +21,7 @@ ${resume.experience.map((employer) => {
     const {
       company, start, end, title, responsibilities,
     } = employer;
-    const dateRange = `${moment(start).format('MMMM Do YYYY')} - ${end ? moment(end).format('MMMM Do YYYY') : 'Present'}`;
+    const dateRange = `${moment(start).format('MMMM YYYY')} - ${end ? moment(end).format('MMMM YYYY') : 'Present'}`;
     return `### ${company}
 _${dateRange}_
 **${title}**
