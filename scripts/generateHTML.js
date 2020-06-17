@@ -95,7 +95,7 @@ const result = `<!DOCTYPE html>
         <li><a href="mailto:benniaustindev@gmail.com"><i class="fas fa-envelope"></i> : benniaustindev@gmail.com</a></li>
         <li><a href="https://github.com/benniaustindev/"><i class="fab fa-github"></i> : github.com/benniaustindev/</a></li>
         <li><a href="https://www.linkedin.com/in/benni-austin/"><i class="fab fa-linkedin"></i> : linkedin.com/in/benni-austin/</a></li>
-        <li><a href="Benni-Austin-Resume.pdf"><i class="fas fa-file-pdf"></i> : Benni's Resume</a></li>
+        <li><a href="Benjamin-Austin-Resume.pdf"><i class="fas fa-file-pdf"></i> : Benni's Resume</a></li>
       </ul>
     </footer>
   </script>

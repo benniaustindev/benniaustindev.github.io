@@ -7,6 +7,7 @@
     "generateReadme": "node scripts/generateReadme.js",
     "generateHTML": "node scripts/generateHTML.js",
     "generateDoc": "node scripts/generateDoc.js",
+    "generatePdf": "node scripts/generatePdf.js",
     "generateCSS": "lessc less/styles.less  styles.css",
     "build": "yarn generateCSS && yarn generateHTML && yarn generateDoc && yarn generateReadme"
   },
@@ -24,6 +25,7 @@
     "docx": "^5.0.0-rc7",
     "handlebars": "^4.4.5",
     "less": "^3.11.3",
+    "libreoffice-convert": "^1.1.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "officegen": "^0.6.3"
