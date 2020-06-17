@@ -6,6 +6,7 @@ const resume = require('../resume.json');
 const result = `# ${resume.name}
 ### ${resume.title}
 #### ${resume.email}
+#### ${resume.website}
 
 ## Objective
 

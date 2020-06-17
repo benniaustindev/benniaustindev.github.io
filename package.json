@@ -23,15 +23,13 @@
   },
   "homepage": "https://github.com/benniaustindev/benniaustindev#readme",
   "dependencies": {
-    "docx": "^5.0.0-rc7",
-    "handlebars": "^4.4.5",
-    "less": "^3.11.3",
     "libreoffice-convert": "^1.1.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "officegen": "^0.6.3"
   },
   "devDependencies": {
+    "less": "^3.11.3",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2"

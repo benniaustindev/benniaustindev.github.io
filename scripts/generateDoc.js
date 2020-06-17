@@ -43,6 +43,11 @@ function createHeader() {
     color: '666666',
   });
   p.addLineBreak();
+  p.addText(resume.website, {
+    ...styles.text,
+    color: '666666',
+  });
+  p.addLineBreak();
   return p;
 }
 
