@@ -5,9 +5,9 @@
   "objective": "I am an experienced front-end developer who has over a decade of experience working for large and small teams alike. I'm seeking a job with like-minded developers where I can be challenged as part of a real team, working towards real goals. I enjoy learning new things, and have found that teaching others is the best way to cement my own skills. My passion is creating responsive and dynamic user interfaces, and I'm looking for an employer that needs someone who can deliver CSS and Javascript magic.",
   "skills": [
     "I love Javascript. Node, React, with or without Redux, noSQL storage, react-native, electron or ionic.",
-    "Typechecking (TypeScript, Flow-Typed)",
+    "Static type checking (TypeScript, Flow-Typed)",
     "Very familiar working  within Firebase ecosystem, and would love to try other cloud-based solutions.",
-    "Familiar with various database and storage systems including MongoDB, SVG, and indexedDB in the browser.",
+    "Familiar with various database and storage systems including MongoDB, SQL, and indexedDB in the browser.",
     "Happy to use Git for version control, but am also familiar with SVN.",
     "I have learned to use many one-off libraries and APIs for specific projects, such as Highcharts, three.js, snap.svg, various Google products (analytics, adsense, fonts, youtube, places, etc..)",
     "I have the ability to pick up new technologies, libraries and API, and use them without hand-holding.",
@@ -21,13 +21,15 @@
       "title": "Senior React-Native Developer",
       "start": 1541048400000,
       "responsibilities":[
-        "Full stack developer, creating a cross-platform app using react-native for the front-end, and Firebase for the back-end along with Facebook-sdk.",
+        "Full stack developer, creating a cross-platform app using react-native for the front-end, and Firebase for the back-end",
         "Ensured that we were writing strong, human-readable code through peer-reviews and implementing research-based standards.",
-        "Created redux actions and reducers to ensure data in the app would up-to-date with the Firestore cloud to scale.",
+        "Build redux actions and reducers to ensure data in the app would stay up-to-date with the Firestore cloud to scale.",
         "Implemented many UI features across multiple journeys to ensure an intuitive and clean user experience.",
-        "Used Flow-types to help find data-handling mistakes before they became bugs.",
+        "Integrated flow-types, and later typescript",
         "Created many robust and reusable components across the app to ensure consistent code.",
-        "Utilized existing modules within the npm ecosystem where possible to reduce complexity and development time."
+        "Utilized existing modules within the npm ecosystem where possible to reduce complexity and development time.",
+        "Implemented jest tests, to make sure future changes don't break things.",
+        "Provided coaching and training to junior level team members and interns."
       ]
     },{
       "company": "Trilogy Education",
