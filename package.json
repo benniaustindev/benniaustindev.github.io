@@ -9,7 +9,8 @@
     "generateDoc": "node scripts/generateDoc.js",
     "generatePdf": "node scripts/generatePdf.js",
     "generateCSS": "lessc less/styles.less  styles.css",
-    "build": "yarn generateCSS && yarn generateHTML && yarn generateDoc && yarn generateReadme"
+    "build": "yarn generateCSS && yarn generateReadme && yarn generateHTML && yarn generateDoc && yarn generatePdf",
+    "lint": "yarn eslint . --fix"
   },
   "repository": {
     "type": "git",

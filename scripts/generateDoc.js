@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 const fs = require('fs');
 const moment = require('moment');
 const officegen = require('officegen');
@@ -12,7 +10,10 @@ const docx = officegen({
     top: 1000, left: 1000, bottom: 1000, right: 1000,
   },
 });
-docx.on('finalize', () => console.log('Build complete: GenerateDoc.'));
+// eslint-disable-next-line no-console
+docx.on('finalize', () => console.log('generate Benjamin-Austin-Resume.docx complete'));
+
+// eslint-disable-next-line no-console
 docx.on('error', (err) => console.error(`generateDoc ${err}`));
 
 const styles = {
@@ -88,7 +89,8 @@ resume.experience.forEach((employer, i) => {
 const out = fs.createWriteStream('Benjamin-Austin-Resume.docx');
 
 out.on('error', (err) => {
-  console.log(err);
+  // eslint-disable-next-line no-console
+  console.warn(err);
 });
 
 docx.generate(out);

@@ -102,3 +102,6 @@ const result = `<!DOCTYPE html>
 </html>`;
 
 fs.writeFileSync('index.htm', result, 'ascii');
+
+// eslint-disable-next-line no-console
+console.log('generate Benjamin-Austin-Resume.html complete');

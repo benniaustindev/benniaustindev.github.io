@@ -30,3 +30,5 @@ ${responsibilities.map((responsibility) => `* ${responsibility}`).join('\n')}
   }).join('\n')}`;
 
 fs.writeFileSync('README.md', result, 'ascii');
+// eslint-disable-next-line no-console
+console.log('generate README.md complete');
