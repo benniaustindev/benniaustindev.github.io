@@ -3,11 +3,16 @@ const moment = require('moment');
 const officegen = require('officegen');
 const resume = require('../resume.json');
 
+// todo: add a check to see if libre office is install, (inform user, & fail gracefully)
+
 const docx = officegen({
   type: 'docx',
   orientation: 'portrait',
   pageMargins: {
-    top: 1000, left: 1000, bottom: 1000, right: 1000,
+    top: 1000,
+    left: 1000,
+    bottom: 1000,
+    right: 1000,
   },
 });
 // eslint-disable-next-line no-console
@@ -72,7 +77,9 @@ resume.experience.forEach((employer, i) => {
   const {
     company, start, end, title, responsibilities,
   } = employer;
-  const dateRange = `${moment(start).format('MMM YY')} - ${end ? moment(end).format('MMM YYYY') : 'Present'}`;
+  const dateRange = `${moment(start).format('MMM YY')} - ${
+    end ? moment(end).format('MMM YYYY') : 'Present'
+  }`;
   p = docx.createP();
   p.addText(`${company} `, { ...styles.text, bold: true, font_size: 14 });
   p.addLineBreak();
@@ -89,7 +96,6 @@ resume.experience.forEach((employer, i) => {
     p = createHeader();
   }
 });
-
 
 const out = fs.createWriteStream('Benjamin-Austin-Resume.docx');
 

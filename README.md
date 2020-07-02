@@ -9,7 +9,7 @@ I am an experienced front-end developer who has over a decade of experience work
 
 ## Skills And Technologies
 
-* I love Javascript. Node, React, with or without Redux, noSQL storage, React Native, Electron or Ionic.
+* I love Javascript. Node (npm), React, with or without Redux, noSQL storage, React Native, Electron or Ionic.
 * Static type checking (TypeScript, Flow-Typed)
 * Very familiar working  within Firebase ecosystem, and would love to try other cloud-based solutions.
 * Familiar with various database and storage systems including MongoDB, SQL, and indexedDB in the browser.
@@ -30,7 +30,7 @@ _November 2018 - June 2020_
 * Build redux actions and reducers to ensure data in the app would stay up-to-date with the Firestore cloud to scale.
 * Implemented many UI features across multiple journeys to ensure an intuitive and clean user experience.
 * Integrated flow-types, and later typescript
-* Created many robust and reusable components across the app to ensure consistent code.
+* Created a framework of robust and reusable components across the platform to ensure clean code and save developer time by reducing redundancies.
 * Utilized existing modules within the npm ecosystem where possible to reduce complexity and development time.
 * Implemented jest tests, to make sure future changes don't break things.
 * Provided coaching and training to junior level team members and interns.
