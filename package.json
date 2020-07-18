@@ -24,7 +24,7 @@
   "homepage": "https://github.com/benniaustindev/benniaustindev#readme",
   "dependencies": {
     "libreoffice-convert": "^1.1.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "officegen": "^0.6.3"
   },
